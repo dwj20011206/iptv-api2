@@ -1,0 +1,33 @@
+2026-08-28T07:12:24+00:00 INFO    [event=application.started] IPTV-API 版本: 3.0.0 (构建时间: 2026-08-07 11:45:59)
+2026-08-28T07:12:25+00:00 INFO    [phase=prepare event=network.ipv6.checking] 🛜 正在检查当前网络是否支持IPv6...
+2026-08-28T07:12:25+00:00 WARNING [phase=prepare event=network.ipv6.unsupported] 当前网络不支持IPv6，别担心，IPv6的结果会被保存下来
+2026-08-28T07:12:25+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=prepare event=run.started] 性能模式: fast → fast，可用资源: 4.0 CPU / 15.61 GB，并发: 测速 16、媒体探测 2、源抓取 8
+2026-08-28T07:12:25+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=prepare event=channels.catalog_loaded] 频道目录已加载：白名单 0，黑名单 2，台标 21
+2026-08-28T07:12:29+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=fetch event=sources.subscribe.summary] 订阅源数量：0，订阅白名单数量：0，停用地址数量：0，有效总数量：0
+2026-08-28T07:12:29+00:00 WARNING [run=595405204ce349e7a2ef1d36eaa81d96 phase=fetch event=sources.subscribe.empty] 没有找到有效的订阅地址，请检查文件：config/subscribe.txt，需要添加订阅地址后才能获取订阅源！
+2026-08-28T07:12:32+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=fetch event=sources.epg.summary] EPG源数量：1，EPG白名单数量：0，停用地址数量：0，有效总数量：1
+2026-08-28T07:12:32+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=fetch event=progress.started] 正在进行获取EPG源  0/1
+2026-08-28T07:12:33+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=fetch event=epg.source_parsed] EPG 源解析完成：http://e.erw.cc/e.xml.gz，保留节目 97 条
+2026-08-28T07:12:33+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=fetch event=progress.updated] 正在进行获取EPG源  1/1 (100%)  剩余 0
+2026-08-28T07:12:33+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=fetch event=sources.epg.finished] EPG源: ✅ 有效地址数量：1，⛔ 停用地址数量：0
+2026-08-28T07:12:33+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=fetch event=progress.finished] 正在进行获取EPG源  1/1  匹配 2 个频道
+2026-08-28T07:14:02+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=aggregate event=channels.aggregated] 频道数据聚合完成：48887 个频道，73422 个接口（IPv4 72961 / IPv6 461）
+2026-08-28T07:14:03+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=speed_test.planned] 总接口数量: 44537, 需要进行测速的接口数量: 308
+2026-08-28T07:14:03+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.started] 测速  0/308
+2026-08-28T07:14:03+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  1/308 (0%)  有效 0  失败 1  少妇白洁3-童汐
+2026-08-28T07:14:06+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  31/308 (10%)  有效 0  失败 31  91大神唐先生之十八岁舞蹈系校花第一部
+2026-08-28T07:14:08+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  62/308 (20%)  有效 2  失败 60  "麻豆映画01"
+2026-08-28T07:14:09+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  93/308 (30%)  有效 2  失败 91  "直播"
+2026-08-28T07:14:12+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  124/308 (40%)  有效 4  失败 120  "直播"
+2026-08-28T07:14:16+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  154/308 (50%)  有效 6  失败 148  是可可宝贝
+2026-08-28T07:14:20+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  185/308 (60%)  有效 7  失败 178  泳裝妹妹的誘惑相奸-韓棠[1280*720]
+2026-08-28T07:14:23+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  216/308 (70%)  有效 8  失败 208  Rouge TV
+2026-08-28T07:14:27+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  247/308 (80%)  有效 12  失败 235  PureMatureHD（LisaAnn）在健身房裡性交困难
+2026-08-28T07:14:28+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  278/308 (90%)  有效 13  失败 265  JUX-961暴風雨
+2026-08-28T07:14:34+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.updated] 测速  308/308 (100%)  有效 13  失败 295  🦖1传媒08
+2026-08-28T07:14:34+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=speed_test.artifacts_written] 测速明细已写入 output/log/speed_test.log，有效结果已写入 output/log/result.log
+2026-08-28T07:14:34+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=speed_test event=progress.finished] 测速  308/308  有效 13  失败 295
+2026-08-28T07:14:43+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=output event=output.written] 结果文件生成完成：更新 3 个文件
+2026-08-28T07:14:51+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=statistics event=statistics.finished] 频道统计完成：测试 308，有效 13
+2026-08-28T07:14:52+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=complete event=run.summary] 更新摘要
+2026-08-28T07:14:52+00:00 INFO    [run=595405204ce349e7a2ef1d36eaa81d96 phase=complete event=run.finished] 更新完成！总耗时：02:27
