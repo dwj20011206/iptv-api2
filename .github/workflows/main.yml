@@ -54,7 +54,7 @@ jobs:
 
           rm -f output/data/channel_results.db
 
-          git add .
+          git add -A -- . ':(exclude)output/data/cache.gz'
 
           if ! git diff --staged --quiet; then
             git commit -m "Github Action Auto Updated"
