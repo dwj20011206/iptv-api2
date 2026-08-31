@@ -97,3 +97,31 @@
 2026-08-31T05:12:44+00:00 INFO    [run=50ad561bb8954c7d97e02a9d933fdfd5 phase=statistics event=statistics.finished] 频道统计完成：测试 20，有效 0
 2026-08-31T05:12:45+00:00 INFO    [run=50ad561bb8954c7d97e02a9d933fdfd5 phase=complete event=run.summary] 更新摘要
 2026-08-31T05:12:45+00:00 INFO    [run=50ad561bb8954c7d97e02a9d933fdfd5 phase=complete event=run.finished] 更新完成！总耗时：00:16
+2026-08-31T05:19:17+00:00 INFO    [event=application.started] IPTV-API 版本: 3.0.0 (构建时间: 2026-08-07 11:45:59)
+2026-08-31T05:19:17+00:00 INFO    [phase=prepare event=network.ipv6.checking] 🛜 正在检查当前网络是否支持IPv6...
+2026-08-31T05:19:17+00:00 WARNING [phase=prepare event=network.ipv6.unsupported] 当前网络不支持IPv6，别担心，IPv6的结果会被保存下来
+2026-08-31T05:19:17+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=prepare event=run.started] 性能模式: fast → fast，可用资源: 4.0 CPU / 15.61 GB，并发: 测速 16、媒体探测 2、源抓取 8
+2026-08-31T05:19:17+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=prepare event=channels.catalog_loaded] 频道目录已加载：白名单 0，黑名单 2，台标 21
+2026-08-31T05:19:24+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=fetch event=sources.subscribe.summary] 订阅源数量：0，订阅白名单数量：0，停用地址数量：0，有效总数量：0
+2026-08-31T05:19:24+00:00 WARNING [run=873e8bae764e45bba78459089c0db715 phase=fetch event=sources.subscribe.empty] 没有找到有效的订阅地址，请检查文件：config/subscribe.txt，需要添加订阅地址后才能获取订阅源！
+2026-08-31T05:19:30+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=fetch event=sources.epg.summary] EPG源数量：1，EPG白名单数量：0，停用地址数量：0，有效总数量：1
+2026-08-31T05:19:30+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=fetch event=progress.started] 正在进行获取EPG源  0/1
+2026-08-31T05:19:30+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=fetch event=epg.source_parsed] EPG 源解析完成：http://e.erw.cc/e.xml.gz，保留节目 0 条
+2026-08-31T05:19:30+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=fetch event=progress.updated] 正在进行获取EPG源  1/1 (100%)  剩余 0
+2026-08-31T05:19:30+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=fetch event=sources.epg.finished] EPG源: ✅ 有效地址数量：1，⛔ 停用地址数量：0
+2026-08-31T05:19:30+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=fetch event=progress.finished] 正在进行获取EPG源  1/1  匹配 0 个频道
+2026-08-31T05:19:52+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=aggregate event=channels.aggregated] 频道数据聚合完成：91305 个频道，91841 个接口（IPv4 91841 / IPv6 0）
+2026-08-31T05:19:52+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=speed_test event=speed_test.planned] 总接口数量: 91827, 需要进行测速的接口数量: 4
+2026-08-31T05:19:52+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=speed_test event=progress.started] 测速  0/4
+2026-08-31T05:19:53+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=speed_test event=progress.updated] 测速  1/4 (25%)  有效 0  失败 1  010319-792-跪下求土豪内射的拜金母狗人妻上山奈奈
+2026-08-31T05:19:54+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=speed_test event=progress.updated] 测速  2/4 (50%)  有效 0  失败 2  010116-220-美熟女姐妹大乱交
+2026-08-31T05:19:55+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=speed_test event=progress.updated] 测速  3/4 (75%)  有效 0  失败 3  010109-949 究极黑丝痴女濑咲瑠奈3P调教内射性爱
+2026-08-31T05:19:56+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=speed_test event=progress.updated] 测速  4/4 (100%)  有效 0  失败 4  011020-001 欲求不满的人妻-青山はな
+2026-08-31T05:19:56+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=speed_test event=speed_test.artifacts_written] 测速明细已写入 output/log/speed_test.log，有效结果已写入 output/log/result.log
+2026-08-31T05:19:56+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=speed_test event=progress.finished] 测速  4/4  有效 0  失败 4
+2026-08-31T05:20:00+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=output event=output.written] 结果文件生成完成：更新 3 个文件
+2026-08-31T05:20:09+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=statistics event=statistics.finished] 频道统计完成：测试 4，有效 0
+2026-08-31T05:20:10+00:00 WARNING [run=873e8bae764e45bba78459089c0db715 phase=complete event=run.empty_data] 未生成频道数据：已聚合 91827 条接口，但测速或过滤后没有可输出结果。
+下一步：在 config/subscribe.txt 添加 txt/m3u 订阅地址，或在 config/local.txt 添加本地频道接口。Docker 用户请确认挂载后的 /iptv-api/config/subscribe.txt 不是空文件。教程：https://github.com/Guovin/iptv-api/blob/master/docs/tutorial.md#添加数据源与更多
+2026-08-31T05:20:10+00:00 INFO    [run=873e8bae764e45bba78459089c0db715 phase=complete event=run.summary] 更新摘要
+2026-08-31T05:20:10+00:00 WARNING [run=873e8bae764e45bba78459089c0db715 phase=complete event=run.finished] 运行完成，但未生成频道数据，请按提示配置或检查数据源。
